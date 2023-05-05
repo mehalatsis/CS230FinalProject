@@ -34,10 +34,14 @@ st.write(findDevil(dareDevil))
 
 
 st.header('Would you ride the Top Thrill Dragster?')
+st.image('TopThrillDragster.jpg')
+st.caption('https://www.thenews-messenger.com/story/news/2021/08/16/top-thrill-dragster-cedar-point-sandusky-ohio-closed-after-injury/8147917002/')
 st.radio("Select an option",
                 ('Definitely Yes', 'Yes', 'No', 'Hard No'))
 
 st.header('Would you ride the Viper?')
+st.image("ViperRC.jpg")
+st.caption('https://www.reddit.com/r/rct/comments/cfgodb/viper_ncso_imgur_album_in_comments/')
 st.radio("Select one of the options",
                 ('Definitely Yes', 'Yes', 'No', 'Hard No'))
 
